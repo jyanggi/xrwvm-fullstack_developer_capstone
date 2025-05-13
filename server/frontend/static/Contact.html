@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us - Dealerships</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%;">
+    <div class="banner text-center p-4" name="contact-header">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you. Reach out to us with questions, feedback, or anything else. We're here to help you get the perfect car!</p>
+    </div>
+    
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; padding: 2rem;">
+      <div class="card" style="width: 40%;">
+        <img class="card-img-top" src="/static/contactus.png" alt="Customer Support" style="width: 150px;height: auto;">
+        <div class="card-body">
+          <h4>Customer Support</h4>
+          <p>Have questions or need help with your purchase? Our support agents are available 7 days a week.</p>
+          <p><strong>Email:</strong> support@bestcars.com</p>
+          <p><strong>Phone:</strong> +1 (800) 123-4567</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 40%;">
+        <img class="card-img-top" src="/static/cars.jpeg" alt="Dealerships" style="height: 250px; object-fit: cover;">
+        <div class="card-body">
+          <h4>Visit Us</h4>
+          <p>Stop by one of our locations across North America and test drive your next car.</p>
+          <p><strong>Main Office:</strong> 123 Auto Lane, Motor City, USA</p>
+          <p><strong>Hours:</strong> Mon - Sat, 9:00 AM to 6:00 PM</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-4 text-center">
+      <h5>Prefer to send a message?</h5>
+      <p>Email us directly at <a href="mailto:contact@bestcars.com">contact@bestcars.com</a> or fill out our inquiry form <a href="/inquiry-form">here</a>.</p>
+    </div>
+  </div>
+</body>
+</html>
